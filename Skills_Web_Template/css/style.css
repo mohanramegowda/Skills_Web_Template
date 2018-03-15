@@ -7,12 +7,21 @@ Note: Licence under Creative Commons Attribution 3.0
 @import url('font-awesome.css');  
 @import url('animate.css');
 
+<<<<<<< HEAD
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
 	font-size: 1.4em;
+=======
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-weight:300;
+	line-height:1.6em;
+	color:#656565;
+	font-size: 1.4em;
+>>>>>>> 188a3cd9199581811ce34270af674a9084d27b78
 }
 
 a:active {
@@ -107,6 +116,11 @@ img.img-polaroid {
 .img-box {
 	max-width:100%;
 }
+.topbar{
+	background-color: #2F3A58;
+	padding:10px 0;
+	color:#fff;
+=======
 .navbar-default .navbar-toggle {
     border-color: #ddd;
     margin-top: 10px;
