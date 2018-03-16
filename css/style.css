@@ -1,7 +1,4 @@
-/*
-Author URI: http://webthemez.com/
-Note: Licence under Creative Commons Attribution 3.0  
--------------------------------------------------------*/
+
 
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
 @import url('font-awesome.css');  
@@ -18,7 +15,8 @@ body {
 .card {
 	box-shadow: 0 4px 8px 0 #00000033;
 	max-width: 300px;
-	margin: auto;
+	height: 255px;
+	
 	text-align: center;
 	font-family: arial;
   }
@@ -38,11 +36,22 @@ body {
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
+	max-width: 300px;
 	font-size: 18px;
+	position: relative;
+	vertical-align: bottom; 
+	bottom: 0
   }
   
   button:hover, a:hover {
 	opacity: 0.8;
+  }
+  
+  .cardp {
+	text-align:justify;
+	margin: 5px;
+	height:100px;
+	overflow: auto
   }
 
 a:active {
